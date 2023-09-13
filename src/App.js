@@ -4,6 +4,7 @@ import MissionInfo from './components/MissionInfo';
 import WasteToWealthHighlights from './components/WasteToWealthHighlights';
 import TechnologyDeployment from './components/TechnologyDeployment';
 import InnovativeChallenge from './components/InnovativeChallenge';
+import TechRepo from './components/TechRepo';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <WasteToWealthHighlights />
       <TechnologyDeployment />
       <InnovativeChallenge />
+      <TechRepo />
     </div>
   );
 }
