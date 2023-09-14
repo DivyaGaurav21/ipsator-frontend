@@ -14,7 +14,7 @@ const TechRepo = () => {
                 <img src="https://media.istockphoto.com/id/1435409342/photo/robot-workers-in-factory.webp?b=1&s=170667a&w=0&k=20&c=iOE-n6bVh0wXTqaCQR5SltbTKMFq2LUG8C0lYV09Hko=" alt="Image" className="w-full h-[400px] opacity-70" />
                 {/* Absolute download link */}
                 <div className='absolute text-justify p-5 md:w-[80%] left-16 md:left-36 top-20 py-2 font-bold'>
-                    <p className='text-red-900'>The technologies listed in this repository broadly fall under two categories: Technologies
+                    <p className='text-white'>The technologies listed in this repository broadly fall under two categories: Technologies
                         which been evaluated by Waste to Wealth Mission and Jal Jeevan Mission. These
                         technologies have been scientifically evaluated by Expert Committees comprising of
                         renowned subject experts from academia and industry. These recommendations are based

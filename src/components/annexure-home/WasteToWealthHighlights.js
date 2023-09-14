@@ -1,5 +1,5 @@
 import React from 'react';
-import { highlight } from '../staticdata'
+import { highlight } from '../../staticdata'
 const WasteToWealthHighlights = () => {
   return (
     <div className="bg-gray-200 p-6 rounded-lg shadow-md w-full">

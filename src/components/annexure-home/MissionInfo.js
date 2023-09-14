@@ -1,6 +1,6 @@
 import React from 'react';
 import HoverCard from './HoverCard';
-import { visionFocus } from '../staticdata';
+import { visionFocus } from '../../staticdata';
 
 const MissionInfo = () => {
 
