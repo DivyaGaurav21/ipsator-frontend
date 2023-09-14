@@ -1,31 +1,22 @@
 import React from 'react';
 import HoverCard from './HoverCard';
 import { visionFocus } from '../../staticdata';
+import VideoEmbed from '../reusable/VideoEmbed';
 
 const MissionInfo = () => {
 
     return (
-        <div className="bg-inherit p-6">
+        <div className="bg-inherit">
 
-            <div className="flex flex-col md:flex-row justify-around items-center bg-neutral-100 py-10">
-                <div className="mt-4 relative p-8 bg-red-950 rounded-e-3xl">
-                    <iframe
-                        width="400"
-                        height="350"
-                        src="https://www.youtube.com/embed/-dFtR0sGqmM?si=yHRk7MRANCaH1e5h"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+            <div className="flex flex-col md:flex-row justify-around items-center bg-neutral-300 py-10 bg-img">
+                <h1 className="md:mt-0 mt-4 text-3xl font-serif font-extrabold text-red-900 bg-neutral-100 bordered-text p-12 rounded-2xl">My Waste To Wealth</h1>
+                <div className="mt-4 relative p-8 bg-red-950 rounded-3xl bordered-text ">
+                    <VideoEmbed width="400" height="350" url="https://www.youtube.com/embed/-dFtR0sGqmM?si=yHRk7MRANCaH1e5h" />
                 </div>
-                <h1 className="md:mt-0 mt-4 text-3xl font-serif font-extrabold text-red-600">My-Waste-to-Wealth</h1>
             </div>
 
-
-
             <div className='px-10 md:px-40 my-16'>
-                <h1 className="text-2xl font-bold mb-5 text-red-600 text-center">ABOUT THE MISSION</h1>
+                <h1 className="text-2xl font-bold mb-5 text-red-800 text-center">ABOUT THE MISSION</h1>
                 <p className='font-semibold font-mono text-gray-500 text-justify'>
                     The Waste to Wealth Mission, spearheaded by the Office of the Principal Scientific Advisor to
                     the Government of India (O/o PSA), aims at strengthening the waste management system in

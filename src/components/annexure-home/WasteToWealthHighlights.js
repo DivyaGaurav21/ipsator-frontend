@@ -2,8 +2,8 @@ import React from 'react';
 import { highlight } from '../../staticdata'
 const WasteToWealthHighlights = () => {
   return (
-    <div className="bg-gray-200 p-6 rounded-lg shadow-md w-full">
-      <h1 className="text-2xl text-center font-bold mb-4 text-red-600 py-8">HIGHLIGHTS OF INITIATIVES UNDER WASTE TO WEALTH MISSION</h1>
+    <div className="bg-neutral-300 p-6 rounded-lg shadow-md w-full">
+      <h1 className="text-2xl text-center font-bold mb-4 text-red-800 py-8">HIGHLIGHTS OF INITIATIVES UNDER WASTE TO WEALTH MISSION</h1>
       <div className="grid grid-cols-2 gap-4 w-[80%] m-auto">
         {
           highlight.map((item) => (

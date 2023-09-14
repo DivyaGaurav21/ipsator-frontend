@@ -1,5 +1,8 @@
 import React from 'react'
 import ProblemTechCard from './ProblemTechCard'
+import WasteManagement from './WasteManagement'
+import VideoEmbed from '../reusable/VideoEmbed'
+import VideoTitleCard from '../reusable/VideoTitleCard'
 
 const TechnologyDeployment = () => {
     return (
@@ -9,17 +12,9 @@ const TechnologyDeployment = () => {
                 <h1 className='text-center text-xl font-bold text-slate-900 p-3 rounded-md border bg-white w-[350px] border-slate-900'>Decentralized Waste Management Techgnology Park</h1>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-around items-center bg-neutral-100 w-full py-10 mt-14">
-                <div className="mt-4 relative p-3 bg-red-900 rounded-3xl">
-                    <iframe
-                        width="400"
-                        height="315"
-                        src="https://www.youtube.com/embed/-dFtR0sGqmM?si=yHRk7MRANCaH1e5h"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+            <div className="flex flex-col md:flex-row justify-around items-center bg-neutral-300 w-full py-10 mt-14">
+                <div className="mt-4 relative p-3 bg-red-900 rounded-3xl bordered-text">
+                    <VideoEmbed url="https://www.youtube.com/embed/4TIl-ysyhe0" width="400" height="315" />
                 </div>
                 <div className='w-1/2'>
                     <ProblemTechCard
@@ -83,6 +78,10 @@ const TechnologyDeployment = () => {
                     </div>
                 </div>
             </div>
+
+            {/* ---------------------------------------------------------------- */}
+            <WasteManagement />
+            <VideoTitleCard />
 
         </div>
     )

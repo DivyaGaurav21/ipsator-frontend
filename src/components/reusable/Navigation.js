@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUsers } from '@fortawesome/free-solid-svg-icons'; // Import FontAwesome icons
-import { faSignInAlt, faUserPlus } from '@fortawesome/free-solid-svg-icons'; // Import FontAwesome icons
 import Logo from './Logo.svg';
+import { navContent } from '../../staticdata';
 
 const Navigation = () => {
     return (
@@ -13,27 +12,16 @@ const Navigation = () => {
                     <img src={Logo} alt='logo_img' className='' />
                 </div>
 
-                <ul className="flex space-x-4 text-red-900">
-                    <li>
-                        <Link to="/" className="flex items-center">
-                            <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/cohort" className="flex items-center">
-                            <FontAwesomeIcon icon={faUsers} className="mr-2" /> Cohort
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/login" className="flex items-center">
-                            <FontAwesomeIcon icon={faSignInAlt} className="mr-2" /> Login
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/signup" className="flex items-center">
-                            <FontAwesomeIcon icon={faUserPlus} className="mr-2" /> Sign Up
-                        </Link>
-                    </li>
+                <ul className="flex space-x-6 text-red-900">
+                    {
+                        navContent.map(navItem => (
+                            <li key={navItem.id}>
+                                <Link to={navItem.link} className="flex items-center a_link">
+                                    <FontAwesomeIcon icon={navItem.icon} className="mr-2" /> {navItem.title}
+                                </Link>
+                            </li>
+                        ))
+                    }
                 </ul>
             </div>
         </nav>
