@@ -17,7 +17,8 @@ const Navigation = () => {
                         navContent.map(navItem => (
                             <li key={navItem.id}>
                                 <Link to={navItem.link} className="flex items-center a_link">
-                                    <FontAwesomeIcon icon={navItem.icon} className="mr-2" /> {navItem.title}
+                                    <FontAwesomeIcon icon={navItem.icon} className="mr-2 font-bold" />
+                                    <span className='font-bold'> {navItem.title}</span>
                                 </Link>
                             </li>
                         ))

@@ -131,3 +131,37 @@ export const fellowshipcards = [
         content: "Includes (i) citizens working in the community and through Self Help Groups and (ii) municipal or sanitary workers   working beyond the specification of their job requirements/descriptions"
     },
 ]
+
+export const cohortvideo = [
+    {
+        id: 1,
+        title: "Swachhta Saarthi Fellowship Cohort 2",
+        url: " https://www.youtube.com/embed/2Z5hg6vyJJI"
+    },
+    {
+        id: 2,
+        title: "Converting human hair waste into compost to enhance agricultural productivity",
+        url: "https://www.youtube.com/embed/dwG3QfxcNxk"
+    },
+    {
+        id: 3,
+        title: "Green energy solutions to create energy- efficient devices",
+        url: "https://www.youtube.com/embed/vVdtE-kgKvg"
+    },
+    {
+        id: 4,
+        title: "Making vermicompost & bio enzymes from domestic waste",
+        url: " https://www.youtube.com/embed/WmnS3VmiU98"
+    },
+    {
+        id: 5,
+        title: "Educating rag pickers to collect waste directly from homes & shops",
+        url: "https://www.youtube.com/embed/uhIuGNpYl0U"
+    },
+    {
+        id: 6,
+        title: "Educating the mass about the importance of waste management for a clean & green planet",
+        url: " https://www.youtube.com/embed/eee0-nEbC8E"
+    }
+]
+

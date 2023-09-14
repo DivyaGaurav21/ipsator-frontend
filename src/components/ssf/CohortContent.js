@@ -12,11 +12,11 @@ const CohortContent = () => {
     };
 
     return (
-        <div className="bg-gray-100 min-h-screen p-6">
+        <div className="min-h-screen p-6">
             <div className="container mx-auto">
                 <h1 className="text-3xl font-bold mb-6 text-center text-red-900">SWACHHTA SAARTHI FELLOWSHIP</h1>
 
-                <div className='flex flex-col md:flex-row gap-3 justify-around'>
+                <div className='flex flex-col md:flex-row gap-3 justify-around bg-white'>
                     {/* Cohort Dropdown */}
                     <div className="mb-6 w-full md:w-[45%]">
                         <label htmlFor="cohortSelect" className="font-bold text-red-800">
@@ -32,7 +32,7 @@ const CohortContent = () => {
                             <option value="SSF_Cohort2">SSF Cohort 2</option>
                         </select>
                     </div>
-                    <p className='text-sm text-gray-500 p-2 w-full md:w-[45%] font-mono text-justify'>
+                    <p className='text-md text-gray-500 p-2 w-full md:w-[45%] font-mono text-justify font-bold'>
                         The Swachhta Saarthi Fellowship is a programme initiated in July 2021 by the Office of the
                         PSA to the Government of India, under its Waste to Wealth Mission. The programme aims at
                         sensitizing the communities towards waste management and offering innovative solutions for
@@ -46,13 +46,13 @@ const CohortContent = () => {
 
                 <hr />
 
-                <div className='flex gap-2 flex-row flex-wrap justify-around my-7'>
+                <div className='flex gap-2 flex-row flex-wrap justify-around my-7  bg-neutral-200 py-7'>
                     {
                         fellowshipcards.map(item => (
-                            <div key={item.id} className="bg-white shadow-md rounded-lg max-w-xs overflow-hidden">
+                            <div key={item.id} className="shadow-md rounded-lg max-w-xs overflow-hidden">
                                 <div className="p-4">
                                     <h2 className="text-2xl font-bold mb-2 text-red-800 text-center">{item.title}</h2>
-                                    <p className="text-gray-600">{item.content}</p>
+                                    <p className="text-slate-800 font-semibold">{item.content}</p>
                                 </div>
                             </div>
                         ))
@@ -60,7 +60,7 @@ const CohortContent = () => {
                 </div>
 
                 <hr />
-                <p>The Swachhta Saarthi Fellows (SSFs) selected under the three categories are supported with monthly fellowships of ₹500/-, ₹1,000/- and ₹2,000/- respectively for a period of one year. </p>
+                <p className='text-slate-400 font-semibold'>The Swachhta Saarthi Fellows (SSFs) selected under the three categories are supported with monthly fellowships of ₹500/-, ₹1,000/- and ₹2,000/- respectively for a period of one year. </p>
                 <hr />
 
                 <div>
