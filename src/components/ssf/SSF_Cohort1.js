@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import VideoEmbed from '../reusable/VideoEmbed'
 import ProblemTechCard from '../annexure-home/ProblemTechCard';
 import CohortVideos from './CohortVideos';
+import AboutSamaroh from './AboutSamaroh';
 
 const SSF_Cohort1 = () => {
 
@@ -126,11 +127,13 @@ const SSF_Cohort1 = () => {
                         href="https://youtube.com/playlist?list=PLn8gwoB4TkljtHGI7gW3gWdQ7EhAqtVU2"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-red-900 font-extrabold hover:underline"
+                        className="text-red-900 font-semibold hover:underline"
                     >
                         View more videos in the playlist
                     </a>
                 </div>
+
+                <AboutSamaroh />
 
             </div>
         </div>

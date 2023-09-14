@@ -165,3 +165,27 @@ export const cohortvideo = [
     }
 ]
 
+export const aboutSamaroh = [
+    {
+        id: 1,
+        imgUrl: "https://wastetowealth.vercel.app/assets/Samaroh1-374b5e67.png",
+        content: "To celebrate the work done by the fellows in the first year of this fellowship, the Waste to Wealth Mission hosted a 2-day event, the ‘Swachhta Saarthi Samaroh’, on 30th September and 1st October 2022, in Delhi. All the SSFs from 27 States and 6 UTs under the 2021 Cohort were invited to Delhi for the event. The event was held at the Indian Institute of Technology Delhi, Hauz Khas. It was attended by eminent dignitaries, including the Scientific Secretary at the Office of the PSA to the Government of India and other dignitaries from academic institutions, industries, Council of Scientific and Industrial Research (CSIR) labs, start-ups, etc"
+    },
+    {
+        id: 2,
+        imgUrl: "https://wastetowealth.vercel.app/assets/Sam2-8c1754a1.png",
+        content: "This 2-day event gave the SSFs under the Waste to Wealth Mission an opportunity to showcase their work and the impact made within their community with their peers to a large audience, which will help in inspiring people across the nation to work toward waste management actively. In the first batch of the fellowship, the Mission selected 379 fellows but over the fellowship period, 344 fellows were able to continue based on their ideas and action plans to tackle the enormous challenge of waste management scientifically and sustainably. As ambassadors of change, these 344 fellows conducted over 2700 sensitization programmes."
+    },
+    {
+        id: 3,
+        imgUrl: "https://wastetowealth.vercel.app/assets/Sam3-6b6cfc3e.png",
+        content: "During the event, the fellows showcased their work done over the past year in the form of posters, prototypes, papers, presentations, and products in the event exhibition. The fellows displayed their work across 8 waste categories, and a total of over 100 posters and 60+ prototypes were displayed at the exhibition venue. 110 fellows from all 3 categories were felicitated for their excellent work in waste management space. 20 fellows were also felicitated under Wellbeing Out of Waste (WOW) Program by I.T.C. Limited, with a fellowship amount of ₹5001 each for their efforts and the impactful work."
+    },
+    {
+        id: 4,
+        imgUrl: "https://wastetowealth.vercel.app/assets/Sam4-cd572256.png",
+        content: "As ambassadors of change, these 344 fellows conducted over 2700 sensitization programmes, including workshops, cleanliness drives, technology interventions, development of prototypes, audio-video demonstrations, one-on-one discussions, and creation of innovative radio jingles, and sensitised over 3.1 lakh citizens.Limited, with a fellowship amount of ₹5001 each for their efforts and the impactful work. I.T.C also provided an opportunity to all the fellows to join the WOW programme within their operating states.The fellows displayed their work across 8 waste categories, and a total of over"
+    }
+
+]
+
