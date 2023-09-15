@@ -401,3 +401,47 @@ export const policies = [
     },
 ];
 
+export const cards = [
+    {
+        title: 'Prof. Ajay Kumar Sood',
+        description: 'Principal Scientific Adviser to the Government of India',
+        imageSrc: 'https://psa.gov.in/CMS/web/sites/default/files/team/P47637-Ajay-Sood_-_Copy-removebg-preview.png',
+    },
+    {
+        title: 'Dr. Parvinder Maini',
+        description: 'Scientific Secretary',
+        imageSrc: 'https://psa.gov.in/CMS/web/sites/default/files/team/Dr._Parvinder_Maini_image-removebg-preview-removebg-preview_0.png',
+    },
+    {
+        title: 'Dr. Monoranjan Mohanty',
+        description: 'Adviser/Scientist G',
+        imageSrc: 'https://psa.gov.in/CMS/web/sites/default/files/team/DR_M_Mohanty-removebg-preview.png',
+    },
+    {
+        title: 'Ms. Malyaj Varmani',
+        description: 'Vice President, Invest India',
+        imageSrc: 'https://www.wastetowealth.gov.in/w2w-drupal/sites/default/files/2022-03/Screenshot%202022-03-25%20at%206.27.13%20PM.png',
+    },
+    {
+        title: 'Saurabh Dutta',
+        description: 'Sr Manager',
+        imageSrc: 'https://www.wastetowealth.gov.in/w2w-drupal/sites/default/files/2021-09/MicrosoftTeams-image%20%2817%29.png',
+    },
+    {
+        title: 'Aniket Ghanshyam',
+        description: 'Sr Manager',
+        imageSrc: 'https://www.wastetowealth.gov.in/w2w-drupal/sites/default/files/2021-07/aniket.png',
+    },
+    {
+        title: 'Jayita Ghosh',
+        description: 'Manager',
+        imageSrc: 'https://www.wastetowealth.gov.in/w2w-drupal/sites/default/files/2021-07/jayita.png',
+    },
+    {
+        title: 'Surbhi Awasthi',
+        description: 'Associate',
+        imageSrc: 'https://www.wastetowealth.gov.in/w2w-drupal/sites/default/files/2022-11/Picture1_0.jpg',
+    }
+
+];
+

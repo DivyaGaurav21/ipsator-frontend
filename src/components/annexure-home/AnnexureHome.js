@@ -5,6 +5,8 @@ import TechnologyDeployment from './TechnologyDeployment'
 import InnovativeChallenge from './InnovativeChallenge'
 import TechRepo from './TechRepo'
 import Policies from './Policies'
+import TeamDetail from './TeamDetail'
+import { cards } from '../../staticdata'
 
 const AnnexureHome = () => {
     return (
@@ -15,6 +17,7 @@ const AnnexureHome = () => {
             <InnovativeChallenge />
             <TechRepo />
             <Policies />
+            <TeamDetail cards={cards} />
         </div>
     )
 }
