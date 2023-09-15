@@ -4,6 +4,7 @@ import WasteToWealthHighlights from './WasteToWealthHighlights'
 import TechnologyDeployment from './TechnologyDeployment'
 import InnovativeChallenge from './InnovativeChallenge'
 import TechRepo from './TechRepo'
+import Policies from './Policies'
 
 const AnnexureHome = () => {
     return (
@@ -13,6 +14,7 @@ const AnnexureHome = () => {
             <TechnologyDeployment />
             <InnovativeChallenge />
             <TechRepo />
+            <Policies />
         </div>
     )
 }

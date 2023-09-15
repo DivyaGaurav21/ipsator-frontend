@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
 const SSF_Cohort2 = () => {
     return (
@@ -16,6 +18,21 @@ const SSF_Cohort2 = () => {
                     based on their proposed ideas and action plans to tackle the challenge of waste management
                     scientifically and sustainably.
                 </p>
+                <div className='mt-10'>
+                    <p className='font-bold text-slate-500'>
+                        <FontAwesomeIcon icon={faUserFriends} className="inline-block mr-2" /> Meet Our Fellows
+                    </p>
+                    <p className='font-bold text-slate-500'>
+                        <FontAwesomeIcon icon={faUserFriends} className="inline-block mr-2" />{' '}
+                        <a
+                            href="https://www.wastetowealth.gov.in/view-all-fellows"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://www.wastetowealth.gov.in/view-all-fellows
+                        </a>
+                    </p>
+                </div>
             </div>
             <img src='https://www.psa.gov.in/assets/images/waste/cohort-one-map.jpg' className='md:max-w-md w-full max-h-[500px]' alt="img__1" />
         </div>

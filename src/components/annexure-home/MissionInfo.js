@@ -31,7 +31,7 @@ const MissionInfo = () => {
                 </p>
             </div>
 
-            <div className='flex flex-col md:flex-row justify-around gap-2'>
+            <div className='flex flex-col md:flex-row justify-center gap-2'>
                 {
                     visionFocus.map((item) => {
                         return <HoverCard key={item.id}

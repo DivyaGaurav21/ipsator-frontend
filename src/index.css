@@ -116,8 +116,12 @@ body::-webkit-scrollbar {
     background-color: rgba(0, 0, 0, 0.8); /* Background color for the text */
     color: #fff; /* Text color */
     font-weight: 700;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     transition: bottom 0.3s ease-in-out;
+    line-height: 1.5rem;
     font-size: small;
   }
   
