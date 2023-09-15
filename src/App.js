@@ -6,6 +6,7 @@ import CohortContent from './components/ssf/CohortContent';
 import Navigation from './components/reusable/Navigation';
 import LogIn from './components/reusable/Login';
 import SignUp from './components/reusable/SignUp';
+import Footer from './components/reusable/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="login" element={<LogIn />} />
         <Route path="signup" element={<SignUp />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

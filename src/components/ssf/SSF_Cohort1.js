@@ -4,6 +4,7 @@ import ProblemTechCard from '../annexure-home/ProblemTechCard';
 import CohortVideos from './CohortVideos';
 import AboutSamaroh from './AboutSamaroh';
 
+
 const SSF_Cohort1 = () => {
 
     const initialMaxHeight = '350px'; // Initial height to show

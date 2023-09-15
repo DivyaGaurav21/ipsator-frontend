@@ -2,8 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
+
 const SSF_Cohort2 = () => {
     return (
+        <>
         <div className='flex flex-col md:flex-row gap-5 justify-around my-3'>
             <div className="md:max-w-md w-full md:w-[400px]">
                 <h1 className='text-red-800 text-3xl font-bold text-center'>SSF Cohort 2</h1>
@@ -36,6 +38,7 @@ const SSF_Cohort2 = () => {
             </div>
             <img src='https://www.psa.gov.in/assets/images/waste/cohort-one-map.jpg' className='md:max-w-md w-full max-h-[500px]' alt="img__1" />
         </div>
+        </>
     )
 }
 

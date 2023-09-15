@@ -16,7 +16,7 @@ const TechnologyDeployment = () => {
                 <div className="mt-4 relative p-3 bg-red-900 rounded-3xl bordered-text">
                     <VideoEmbed url="https://www.youtube.com/embed/4TIl-ysyhe0" width="400" height="315" />
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2 w-full'>
                     <ProblemTechCard
                         problem="Problem Statement:"
                         solution="Cleaning of open drains in congested areas has always been a challenge in India

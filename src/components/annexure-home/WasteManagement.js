@@ -10,7 +10,7 @@ const WasteManagement = () => {
                 <VideoEmbed url="https://www.youtube.com/embed/qXO5rjRb9yA" width="350" height="400" />
                 <ProblemTechCard
                     problem=" Problem statement:"
-                    solution=": Unscientific disposal of mixed waste in open dumpsites
+                    solution="Unscientific disposal of mixed waste in open dumpsites
                 generates harmful greenhouse emissions and contaminate soil and groundwater causing
                 health and environment hazards to the city’s population. Presently, the 469 colonies
                 across 64 wards in East Delhi generate on an average about 2200 tons per day of fresh

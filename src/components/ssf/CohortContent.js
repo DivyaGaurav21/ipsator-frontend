@@ -3,6 +3,7 @@ import SSF_Cohort1 from './SSF_Cohort1';
 import SSF_Cohort2 from './SSF_Cohort2';
 import { fellowshipcards } from '../../staticdata';
 
+
 const CohortContent = () => {
     const [selectedCohort, setSelectedCohort] = useState('SSF_Cohort1');
     console.log(selectedCohort)

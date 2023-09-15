@@ -5,7 +5,7 @@ const VideoEmbed = ({ url, width, height }) => {
         borderRadius: "20px",
     };
     return (
-        <div>
+        <div className="m-auto">
             <iframe
                 width={width}
                 height={height}

@@ -8,6 +8,7 @@ import Policies from './Policies'
 import TeamDetail from './TeamDetail'
 import { cards } from '../../staticdata'
 
+
 const AnnexureHome = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const AnnexureHome = () => {
             <TechRepo />
             <Policies />
             <TeamDetail cards={cards} />
+
         </div>
     )
 }
